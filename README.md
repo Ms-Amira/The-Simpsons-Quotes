@@ -1,4 +1,4 @@
-# The-Simpsons-Quotes
+# The Simpsons Quotes
 
 A fun and simple web app that fetches random quotes from your favorite characters on *The Simpsons*! Every time you click the **"Eat My Shorts"** button, a new quote, character name, and character image will be displayed.
 
@@ -17,14 +17,6 @@ A fun and simple web app that fetches random quotes from your favorite character
 - Displays the quote text, the character's name, and their picture.
 - Interactive button to fetch a new quote on demand.
 
-## 🚀 How to Run the Project
-
-### Clone the repository
-
-```bash
-git clone https://github.com/yourusername/simpsons-quotes.git
-cd simpsons-quotes
-
 😬 Error Handling – “D’oh!”
 
 If something goes wrong while fetching data from the API, like if you're offline, you misspelled the API or the API is down, the app will:
@@ -32,5 +24,13 @@ If something goes wrong while fetching data from the API, like if you're offline
 * Display a Homer Simpson GIF saying “D’oh!”
 
 * Show the message: "D'oh!"
+
+## 🚀 How to Run the Project
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/simpsons-quotes.git
+cd simpsons-quotes
 
 ![Alt text](/SimpsonsHome.png)
