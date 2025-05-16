@@ -2,7 +2,7 @@ const characters = document.getElementById('characters');
 const pictures = document.getElementById('img');
 const quote = document.getElementById('quote');
 const button = document.getElementById('button');
-
+const error = document.getElementById('error');
 
 const getCharacters = () => {
 
@@ -15,6 +15,7 @@ const getCharacters = () => {
     characters.innerHTML = '';
     pictures.innerHTML = '';
     quote.innerHTML = '';
+    error.innerHTML = '';
 
       const characterLi = document.createElement('li');
       const imageLi = document.createElement('img');
@@ -34,9 +35,13 @@ const getCharacters = () => {
 
     }).catch((error) => {
     console.log(error, "D'oh");
+    displayError();
   })
-}
+};
 
+const displayError = () => {
+error.innerHTML = `<img src="https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif" alt="Homer D'oh" />`
+}
 button.addEventListener('click', getCharacters);
 
 // document.addEventListener("DOMContentLoaded", getCharacters);
