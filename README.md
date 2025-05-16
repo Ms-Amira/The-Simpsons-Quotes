@@ -32,5 +32,6 @@ If something goes wrong while fetching data from the API, like if you're offline
 ```bash
 git clone https://github.com/yourusername/simpsons-quotes.git
 cd simpsons-quotes
+```
 
 ![Alt text](/SimpsonsHome.png)
