@@ -40,7 +40,7 @@ const getCharacters = () => {
 };
 
 const displayError = () => {
-error.innerHTML = `<img src="https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif" alt="Homer D'oh" />`
+error.innerHTML = `<img src="https://media.giphy.com/media/xT5LMzIK1AdZJ4cYW4/giphy.gif" alt="Homer D'oh!" />`
 }
 button.addEventListener('click', getCharacters);
 
