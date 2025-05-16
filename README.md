@@ -34,4 +34,5 @@ git clone https://github.com/yourusername/simpsons-quotes.git
 cd simpsons-quotes
 ```
 
+## 📸 Screenshot
 ![Alt text](/SimpsonsHome.png)
