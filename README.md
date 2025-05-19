@@ -35,4 +35,4 @@ cd simpsons-quotes
 ```
 
 ## 📸 Screenshot
-![Alt text](/SimpsonsHome.png)
+![Alt text](./SimpsonsHome.png)
